@@ -1,48 +1,54 @@
-  body {
+body {
       font-family: 'Inter', sans-serif;
-      background-color: #e0f2f7;
+      background-color: rgb(224, 242, 247);
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
-      margin: 0;
+      min-height: 700px;
+      margin: 0px;
       padding: 20px;
       box-sizing: border-box;
     }
+
     .main-container {
-      background-color: #ffffff;
+      background-color: white;
       padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
       text-align: center;
       max-width: 450px;
       width: 100%;
-      border: 1px solid #cce7ee;
+      border: 1px solid rgb(204, 231, 238);
     }
+
     .page-title {
-      color: #2c3e50;
-      font-size: 2.2em;
+      color: rgb(44, 62, 80);
+      font-size: 35px;
       margin-bottom: 25px;
     }
+
     .counter-display {
-      color: #34495e;
-      font-size: 1.8em;
+      color: rgb(52, 73, 94);
+      font-size: 29px;
       margin-bottom: 35px;
     }
+
     .counter-display span {
       font-weight: bold;
-      color: #007bff;
+      color: rgb(0, 123, 255);
     }
+
     .action-button {
-      background-color: #28a745;
+      background-color: rgb(40, 167, 69);
       color: white;
       border: none;
       padding: 16px 32px;
-      font-size: 1.3em;
+      font-size: 21px;
       border-radius: 10px;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+
     .action-button:hover {
-      background-color: #218838;
+      background-color: rgb(33, 136, 56);
     }
